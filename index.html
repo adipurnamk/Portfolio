@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="jumbotron gradient">
+			<h1>Portfolio</h1>
+			<p>just some little sketch from tiny bravery</p>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#xgboost">XGBoost Predicting, August 2020</a></li>
+				<li><a href="#eda">Exploratory Data Analysis, May 2020</a></li>
+				<li><a href="#clustering">K-Means Clustering, March 2020</a></li>
+				<li><a href="#web">Webpage</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="content">
+			<article id="xgboost" class="card">
+				<h2 id="xgboost" href="">XGBoost Predicting Parkinson Diseases</h2>
+				<img src="assets/image/xgboost.webp" class='featured-image' alt="xgboost">
+				<p>
+					Neurodegenerative diseases affect millions of people worldwide. Alzheimer’s disease and Parkinson’s disease
+					are the most common neurodegenerative diseases. In 2016, an estimated 5.4 million Americans were living with
+					Alzheimer’s disease. An estimated 930,000 people in the United States could be living with Parkinson’s disease
+					by 2020.
+				</p>
+				<p>
+					The goal of this project is to build a model to accurately predict the presence of a neurodegenerative
+					disease in an individual as early detection of a neurodegenerative disease could be useful for the
+					identification of people who can participate in trials of neuroprotective agents, or ultimately to try and
+					halt disease progression once effective disease-modifying interventions have been identified.
+				</p>
+				<a href="https://www.datainsightonline.com/post/xgboost_predicting-parkinson-diseases">Continue reading...</a>
+			</article>
+			<article id="eda" class="card">
+				<h2 id="eda">Exploratory Data Analysis for Covid-19 USA States Dataset</h2>
+				<img src="assets/image/corona.jpeg" class='featured-image' alt="eda">
+				<p>Coronavirus disease 2019, abbreviated as COVID-19, has caused coronavirus pandemic in 2019-2020. It's spread
+					around the world very quickly.
+					In this blog post, we will discover the spread of COVID-19 cases in the USA States. The data that we used in
+					this task is the Covid-19 USA States from Kaggle. This data is about cases around the US States from 22
+					January until 26 April 2020.
+				</p>
+				<p>From this exploratory, we hope that we can answer some questions, such as:
+					<ol>
+						<li>Where does the first case happen?</li>
+						<li>Which states have the most corona cases?</li>
+						<li>How is the growth of the corona case to date?</li>
+						<li>Is there any state that has zero cases?</li>
+					</ol>
+				</p>
+				<a href="https://www.datainsightonline.com/post/exploratory-data-analysis-for-covid-19-usa-states-dataset">Continue
+					reading...</a>
+			</article>
+			<article id="clustering" class="card">
+				<h2 id="clustering">Trans Koetaradja Bus Stops Clustering Analysis Using K-Means</h2>
+				<img src="assets/image/trans.png" class='featured-image' alt="clustering">
+				<p>Banda Aceh is capital city from Aceh Province, Indonesia. Placed in the north most of Sumatra Island. It not
+					only acts as capital government but also center of economic, political, social and cultural activities. It is
+					also the oldest Islamic city in Southeast Asia, where Banda Aceh was the capital city of the Sultanate of
+					Aceh.</p>
+				<p>Like many city buses in general, Trans Koetaradja serves people transportation around the city. So far, there
+					are four corridors around the Banda Aceh. People and tourists in Banda Aceh can easily travel around the city
+					using these busses. The fun fact is, from the operating year, 2016 up to 2019, we can use it at no cost. But
+					not again this year.</p>
+				<p>There are many Trans Koetaradja bus stops around the city. So, these buses roam around the city all day with
+					different kinds of people. From school students, workers, merchants until old people that must go to the
+					hospital. We never know where people will go from a certain stop. So, in this project, we will map the main
+					usage of those bus stops.</p>
+				<a href="https://docs.google.com/document/d/1LCYiROOXdjbVHc9XHKuk8m24MvnyOheEkSGRGWt16Z0/edit#">Continue
+					reading...</a>
+			</article>
+			<article id="web" class="card">
+				<h2 id="web">Webpage</h2>
+				<h2>SimplisticLanding</h2>
+				<img src="assets/image/progate12.png" class='featured-image' alt="progate">
+				<p>This is a Github Repository for Progate Assignment Project from Progate batch 1 presented by Tokopedia,
+					created by Team 12.</p>
+				<a href="https://github.com/wellyaditama/ProgateAssignmentTeam12">Github Repo</a>
+			</article>
+		</div>
+		<aside>
+			<article class="profile card" id="profile">
+				<h2>Profile</h2>
+				<p>Muhammad Adipurna Kusumawardana</p>
+				<figure>
+					<img src="assets/image/pasfoto.jpg" class="center">
+					<section>
+						<h3>About Me</h3>
+						<table class="center">
+							<tr>
+								<th><i class="fa fa-github" aria-hidden="true"></i> Github</th>
+								<td><a href='https://github.com/adipurnamk'>adipurnamk</td>
+							</tr>
+							<tr>
+								<th><i class="fa fa-linkedin "></i> LinkedIn</th>
+								<td><a href='https://www.linkedin.com/in/adipurnamk/'>adipurnamk</td>
+							</tr>
+							<p>🌱 I’m currently learning Python, Django, Data Analysis, and Google IT Support</p>
+							<p>📫 How to reach me:</p>
+						</table>
+					</section>
+				</figure>
+			</article>
+			<article>
+				<input type="button" value="Hide Profile" onclick="document.getElementById('profile').style.visibility='hidden'">
+				<input type="button" value="Show Profile" onclick="document.getElementById('profile').style.visibility='visible'">
+			</article>
+		</aside>
+	</main>
+	<footer>
+		<p>adipurnamk &#169; 2020</p>
+		<p>Baparekraf Developer Day 2020</p>
+	</footer>
+	<script src="assets/javascript.js"></script>
+
+</body>
+
+</html>

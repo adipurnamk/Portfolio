@@ -1,0 +1,139 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">');
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-image: linear-gradient(250deg, #71c4d6, #ebfff0);
+   text-align: center;
+}
+
+nav {
+   background-color: #71c4d6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: black;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+h2, h3 {
+   color: black;
+}
+
+
+.profile header {
+   text-align: center;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+body {
+   font-family: 'Oxygen', sans-serif;
+   margin: 0;
+   padding: 0;
+  
+}
+
+main {
+   
+   padding: 20px;
+}
+
+.card {
+   background-color: #effdfc;
+   box-shadow: 0 4px 8px 0 rgba(1, 132, 144, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.profile img {
+   width: 200px;
+}
+
+footer {
+   padding: 15px;
+   /* color: white; */
+   background-color: #71c4d6;
+   text-align: center;
+   font-weight: bold;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+aside p,
+h3,
+img {
+   text-align: center;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+
+   nav
+   li {
+      display:  flex;
+      flex-wrap: wrap;
+      padding-bottom: 5px;
+   }
+
+   #content,
+   aside {
+      width: 100%;
+      padding: 0;
+   }
+
+   .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+}
+
+header {
+   display: inline;
+}
+
